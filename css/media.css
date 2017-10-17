@@ -1,0 +1,181 @@
+/*============    	АДАПТИВ    ===========*/
+/*==меняем значок nav ==*/
+.dropdown-toggle {
+	border:1px solid #000;
+	padding: 5px;
+	padding-bottom: 6px;
+	padding-top: 15px;
+	border-radius: 5px;
+	background-color: #666666;
+	color: #fff;
+	margin-left: -30px;
+}
+.dropdown-toggle:hover{
+	background-color: #000;
+	color: #fff;
+}
+.dropdown-toggle i{
+	margin-top: 10px;
+
+}
+
+@media(min-width:0px) and (max-width:320px) {
+nav{
+	/*==фиксация сверху nav ==*/
+	top: 0;
+	/*==задаем высоту и ширену nav ==*/
+	height: 60px;
+	padding-top: 10px;
+
+}
+img.img-responsive.pull-right{
+	max-width: 80px;
+
+}
+.main_header h1{
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.main_second h3{
+	font-size: 18px;
+	text-align: center;
+}
+.main_buttons button#tell_phone{
+	padding: 5px 12px;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 20px;
+}
+.main_buttons button#get_types{
+	padding: 5px 12px;
+	margin: 0 auto;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+.main_buttons button#get_types:hover{
+	background-color: #708090;
+
+}
+.main_buttons a{
+	text-decoration: none;       /*==Убираем подчеркивание в ссылок==*/
+}
+section#main{
+	background: url(../img/main_bg_580.jpg) no-repeat center center;  /*==Новый фон ==*/
+	background-size: cover;
+
+}
+                   /*==Меняем размеры кнопок==*/
+button.offer_btn{
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+button.more_btn{
+	font-size: 12px;
+}
+button#free_consult{
+	margin: 0 auto;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+button#free_free_consult.offer_btn{
+	margin: 0 auto;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+section#help p{
+	font-size: 16px;
+}
+button#free_consult{        /*== Выравнивание кнопки по центур==*/
+    text-align: center;
+    display: block;
+}
+  /*== offer==*/
+img#gift_stock{
+	width: 180px;
+}
+section#offer h4{
+	text-align: center;
+}
+section#offer h3{
+	font-size: 18px;
+}
+section#offer p{
+	font-size: 16px;
+}
+section#offer input{
+	margin-bottom: 10px;
+}
+button#get_gift{ 		/*== Выравнивание кнопки по центур==*/
+	text-align: center;
+	display:block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+/*== feedback==*/
+.item{
+	height: 500px;
+	text-align: center; 
+}
+/*== footer==*/
+footer#contacts{
+	text-align: center;
+}
+button#get_answer{
+	margin-top: 5px;
+}
+footer#contacts h2{
+	font-size: 22px;
+	margin-left: 5px;
+}
+.bondar{
+	text-align: center;
+}
+/*== Карта==*/
+iframe{
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	display:block;
+	margin: 0 auto;
+}
+}
+
+
+/*== Всплывающие окна==*/
+.header_modal_info h4{
+	font-size: 14px;
+	text-align: center;
+	margin-right: 8px;
+}
+.modal-body p{
+	font-size: 14px;
+}
+
+
+}
+
+
+
+
+
+@media(min-width:321px) and (max-width:480px) {
+
+
+
+}
+
+@media(min-width:481px) and (max-width:768px) {
+	
+}
+
+
+@media(min-width:769px) and (max-width:992px) {
+	
+}
+
+@media(min-width:993px) and (max-width:1200px) {
+	
+}
+/*================ДЛЯ ВСЕх?????????ДА===========*/
